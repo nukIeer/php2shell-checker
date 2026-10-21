@@ -1,12 +1,11 @@
-# 🛡️ php2shell Passive Checker
+# php2shell Checker
 
 ![PHP](https://img.shields.io/badge/PHP-5.4%20--%208.5-777bb3?logo=php&logoColor=white)
 ![CVE](https://img.shields.io/badge/CVE-2026--109618%20%7C%20109619-critical)
 ![CVSS](https://img.shields.io/badge/CVSS-9.2-red)
-![License](https://img.shields.io/badge/scope-authorized%20testing%20only-blue)
-![No Exploit](https://img.shields.io/badge/payload-none%20%E2%80%94%20passive%20only-success)
 
-**Zero-risk, one-request inventory tool for php2shell (CVE-2026-109618 / CVE-2026-109619)** — the critical (CVSS 9.2) unauthenticated PHP core RCE pair patched by the PHP Foundation on **2026-10-21**.
+Version checker for **php2shell (CVE-2026-109618 / CVE-2026-109619)**, the
+critical PHP RCE pair patched on 2026-10-21.
 
 No exploit payloads. No multipart tricks. No crashes. Just a single harmless GET request, a header read, and a clear verdict — safe to run against your entire fleet in minutes.
 
